@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./matrix_multiplication.js"></script>
+    <title>Matrix Multiplication</title>
+</head>
+<body>
+    <h1>Matrix Multiplication</h1>
+    
+    <h3>Matrix A</h3>
+    <table border="1">
+        <tr>
+            <td><input type="number" id="a11"  placeholder="enter number"></td>
+            <td><input type="number" id="a12"  placeholder="enter number"></td>
+        </tr>
+        <tr>
+            <td><input type="number" id="a21"  placeholder="enter number"></td>
+            <td><input type="number" id="a22"  placeholder="enter number"></td>
+        </tr>
+    </table>
+
+    <h3>Matrix B</h3>
+    <table border="1">
+        <tr>
+            <td><input type="number" id="b11"  placeholder="enter number"></td>
+            <td><input type="number" id="b12"  placeholder="enter number"></td>
+        </tr>
+        <tr>
+            <td><input type="number" id="b21"  placeholder="enter number"></td>
+            <td><input type="number" id="b22"  placeholder="enter number"></td>
+        </tr>
+    </table>
+
+    <br>
+    <button onclick="multiplyMatrices()">Multiply Matrices</button>
+
+    <h3>Resultant Matrix C</h3>
+    <table border="1">
+        <tr>
+            <td id="c11"></td>
+            <td id="c12"></td>
+        </tr>
+        <tr>
+            <td id="c21"></td>
+            <td id="c22"></td>
+        </tr>
+    </table>
+
+    
+</body>
+</html>

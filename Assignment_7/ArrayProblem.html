@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./arrayproblem.js"></script>
+    <title>Problem on Array</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Problem on Array : Two Sum</h1>
+    <hr>
+    <h3>Problem Statement</h3>
+    <p>Return the indices of the two numbers so that they add up to target given an array of integers nums and an integer target. You can make an assumption that every input has exactly one solution, and you may avoid using the same element more than once.</p>
+<hr>
+    <label for="nums">Enter the array of numbers (comma-separated):</label>
+    <input type="text" id="nums" placeholder="e.g., 2,7,11,15">
+
+    <br><br>
+
+    <label for="target">Enter the target value:</label>
+    <input type="number" id="target" placeholder="e.g., 9">
+
+    <br><br>
+
+    <button onclick="findTwoSum()">Find</button>
+
+    <h3>Result:</h3>
+    <p id="result"></p>
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>String Calculator</title>
+  <script src="./script.js"></script>
+</head>
+<body>
+  <h1 style="text-align: center;">String Calculator</h1>
+  <div id="strgip" style="background-color:burlywood;border: 2px solid black;">
+    <input type="text" id="str1" placeholder="Enter String 1" style="margin: 25px 10em 25px 10em;">
+    <input type="text" id="str2" placeholder="Enter String 2" style="margin: 25px 50px 25px 40em;">
+  </div>
+  <br><br><br>
+  <div id="strop" style="background-color:burlywood;border: 2px solid black;">
+  <h2>Slice</h2>
+  <input type="number" name="string_slice" id="strslice">
+  <button onclick="slice()">Result</button>
+  <p id="sliceres1" style="font-weight: 700;"></p>
+  <p id="sliceres2" style="font-weight: 700;"></p>
+  <br>
+  <h2>Uppercase</h2><button onclick="upper()">Result</button>
+  <p id="upperres1" style="font-weight: 700;"></p>
+  <p id="upperres2" style="font-weight: 700;"></p>
+  <h2>Lowercase</h2><button onclick="lower()">Result</button>
+  <p id="lowerres1" style="font-weight: 700;"></p>
+  <p id="lowerres2" style="font-weight: 700;"></p>
+  <h2>Concatenation</h2><button onclick="concat()">Result</button>
+  <p id="concatres" style="font-weight: 700;"></p>
+  <h2>Length</h2><button onclick="length()">Result</button>
+  <p id="lengthres1" style="font-weight: 700;"></p>
+  <p id="lengthres2" style="font-weight: 700;"></p>
+  <h2>CharAt</h2>
+  <input type="number" name="string_charAt" id="strchar">
+  <button onclick="charat()">Result</button>
+  <p id="charatres1" style="font-weight: 700;"></p>
+  <p id="charatres2" style="font-weight: 700;"></p>
+  </div>
+</body>
+</html>
