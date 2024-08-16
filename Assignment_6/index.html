@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Functions and Variable</title>
+    <script src="./script.js"></script>
+</head>
+<body style="background-color:darkgray;">
+    <h1 style="text-align: center;">JS Functions and Variable</h1>
+    <hr>
+
+    <!-- Area of Triangle -->
+    <div id="areaTri">
+        <h2>Area of Triangle</h2>
+        <p>Enter The Lengths of Sides of Triangle</p>
+        <p>Side A</p> <input type="number" name="sideA" id="side_A">
+        <p>Side B</p> <input type="number" name="sideB" id="side_B">
+        <p>Side C</p> <input type="number" name="sideC" id="side_C">
+        <br><br><br>
+        <button onclick="triangle()">Calculate</button>
+        <p style="font-weight: bolder;" id="resT"></p>
+    </div>
+
+
+    <!-- Area of Circle -->
+    <div id="areaCirc">
+        <h2>Area of Circle</h2>
+        <p>Enter The Radius</p>
+        <input type="number" name="radC" id="radi_C">
+        <button onclick="circle()">Calculate</button>
+        <p style="font-weight: bolder;" id="resC"></p>
+
+
+
+        <!-- Vowel Counter -->
+    <div id="vowels">
+        <h2>Find No. of Vowels from the Given String</h2>
+        <p>Enter The String</p>
+        <input type="text" name="strVowel" id="strV">
+        <button onclick="getCount()">Calculate</button>
+        <p style="font-weight: bolder;" id="resV"></p>        
+    </div>
+    
+    
+    
+    <!-- SI Calculator -->
+    <div id="sicalc">
+        <h2>Simple Interest Calculator</h2>
+        <p>Enter The Principle Value</p>
+        <input type="number" name="principle" id="prin_C">
+        <p>Enter The Rate</p>
+        <input type="number" name="rate" id="rate_C">
+        <p>Enter The Time Period</p>
+        <input type="number" name="time" id="time_C">
+        <button onclick="sical()">Calculate</button>
+        <p style="font-weight: bolder;" id="resSI"></p>
+    </div>
+
+    <!-- Prime Number -->
+    <div id="primenum">
+        <h2>Prime Number Check</h2>
+        <p>Enter a Number: </p>
+        <input type="number" name="primen" id="prnum">
+        <button onclick="prim()">Calculate</button>
+        <p style="font-weight: bolder;" id="respr"></p>
+    </div>
+
+    <!-- Factorial of a Number -->
+    <div id="factnum">
+        <h2>Factorial of a Number</h2>
+        <p>Enter a Number: </p>
+        <input type="text" name="facn" id="facnum">
+        <button onclick="fact()">Calculate</button>
+        <p style="font-weight: bolder;" id="resft"></p>
+    </div>
+
+</body>
+</html>
