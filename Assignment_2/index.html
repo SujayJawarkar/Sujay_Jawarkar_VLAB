@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+<body style="background-color:blueviolet;">
+    <header style="padding:0 40% 0 40%;">
+        <h1 style="text-align: center;background-color: violet;border-radius: 3px;">HTML FORM</h1>
+    </header>
+    <hr>
+    <section style="padding: 0 200px 0 250px;">
+    <form action="" style="background-color: antiquewhite;padding:0 150px 0 35%;border-radius: 20px">
+        <section id="Name">
+            <h2>Enter Your Personal Details</h2>
+            <label for="firstName">First Name: </label>
+            <input type="text" name="firstName" id="firstName" placeholder="Your First Name">
+            <br>
+            <br>
+            <label for="lastName">Last Name: </label>
+            <input type="text" name="lastName" id="lastName" placeholder="Your Last Name">
+        </section>
+        <br><br>
+        <section id="ageGenderDob">
+            <label for="age">Your Age: </label>
+            <input type="number" name="age" id="age" min="1" max="99">
+            <br><br>
+            <label for="gender">Select Your Gender: </label>
+            <input type="radio" name="gender" id="gender"><label for="male">Male</label>
+            <input type="radio" name="gender" id="gender"><label for="female">Female</label>
+            <br><br>
+            <label for="dob">Date of Birth: </label>
+            <input type="date" name="dob" id="dob">
+        </section>
+<br><br>
+        <section id="course">
+            <h2>Select Your Educational Details</h2>
+            <label for="clgName">Enter your College Name: </label>
+            <input type="text" name="clgName" id="clgName" placeholder="Your College Name">
+            <br><br>
+            <label for="course">Select your Course: </label>
+            <select name="course" id="course" >
+                <option value="sele" disabled selected hidden>Choose Here</option>
+                <option value="bsc">B.Sc</option>
+                <option value="engg">Engineering</option>
+                <option value="mba">MBA</option>
+              </select>
+              <br><br>
+            <label for="branch">Branch </label>
+          <select name="course" id="course">
+            <option value="sele" disabled selected hidden>Choose Here</option>
+              <option value="animation">Animation</option>
+              <option value="fin">Finance</option>
+              <option value="marketing">Marketing</option>
+              <option value="comp">Computer</option>
+              <option value="it">Information Technology</option>
+              <option value="aids">AI&DS</option>
+              <option value="elect">Electrical</option>
+              <option value="mech">Mechanical</option>
+              <option value="ptg">Printing & Design</option>
+            </select>  
+            <br><br>
+            <label for="yos">Year of Study : </label>
+            <select name="course" id="course">
+                <option value="fst">1st Year</option>
+                <option value="snd">2nd Year</option>
+                <option value="trd">3rd Year</option>
+                <option value="fth">4th Year</option>
+              </select>
+        </section>
+        <section id="feedback">
+            <h2>Submit Your Feedback</h2>
+            <textarea name="feedback" id="feedback" cols="40" rows="5" placeholder="Write Here...."></textarea>
+        </section>
+
+        <button style="margin: 10px 40% 0 30%;">Submit</button>
+    </form>
+</section>
+</body>
+</html>
